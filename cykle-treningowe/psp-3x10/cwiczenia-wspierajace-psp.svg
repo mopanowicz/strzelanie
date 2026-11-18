@@ -248,8 +248,8 @@
     <path class="motion" d="M175 44 L175 53" opacity="0"/>
     <text class="badge-text-b" x="334" y="108">Izometria (15–25 s)</text>
 
-    <text class="cue" x="20" y="222">Utrzymuj lekką butelkę/przedmiot na wyprostowanej ręce (bez broni).</text>
-    <text class="cue-sub" x="20" y="241">Nie unoś barku; zakończ próbę przed pojawieniem się bólu lub drżenia.</text>
+    <text class="cue" x="20" y="222">Utrzymuj 0,75–1,2 kg (docelowo do 1,4 kg) w płaszczyźnie łopatki (~30–45°).</text>
+    <text class="cue-sub" x="20" y="241">Obciąż równomiernie stopy, nie unoś barku; nie używaj broni.</text>
   </g>
 
   <!-- Karta 6: Prostowanie nadgarstka -->
@@ -282,8 +282,8 @@
     <!-- Strzałka ruchu nadgarstka -->
     <path class="motion-bi" d="M348 162 Q368 132 348 98"/>
 
-    <text class="cue" x="20" y="222">Przedramię oparte stabilnie, dłoń poza krawędzią grzbietem w górę.</text>
-    <text class="cue-sub" x="20" y="241">Unoś dłoń w nadgarstku i opuszczaj powoli z bardzo lekkim ciężarem.</text>
+    <text class="cue" x="20" y="222">Przedramię oparte, dłoń grzbietem w górę (0,75–1,5 kg).</text>
+    <text class="cue-sub" x="20" y="241">Uzupełniająco: kciukiem w górę (hantel 0,75–1,2 kg lub butelka 0,5 l za szyjkę).</text>
   </g>
 
   <!-- Karta 7: Nawracanie i odwracanie przedramienia -->
@@ -311,8 +311,8 @@
     <path class="motion-bi" d="M218 102 Q265 56 318 102"/>
     <text class="cue-sub" x="268" y="68" text-anchor="middle">obrót góra ↔ dół</text>
 
-    <text class="cue" x="20" y="222">Oprzyj przedramię z łokciem blisko tułowia; obracaj dłoń z lekkim przedmiotem.</text>
-    <text class="cue-sub" x="20" y="241">Prowadź ruch powoli raz wnętrzem dłoni w górę, raz w dół.</text>
+    <text class="cue" x="20" y="222">Oprzyj przedramię (łokieć przy tułowiu); ciężar 0,4–0,6 kg na dźwigni.</text>
+    <text class="cue-sub" x="20" y="241">Obracaj powoli dłoń (np. pełna butelka 0,5 l za szyjkę) góra ↔ dół.</text>
   </g>
 
   <!-- Karta 8: Deska boczna -->

@@ -2,6 +2,7 @@
 
 **Aktualizacja:** 2026-11-18  
 **Cel:** ogólna wytrzymałość obręczy barkowej, przedramion i tułowia przy treningu pistoletowym jednorącz.  
+**Punkt odniesienia sprzętowego:** Benelli MP 95E (.22 LR) — masa ok. 1,10–1,12 kg, środek ciężkości przesunięty w stronę lufy.  
 **Częstotliwość:** 2 sesje tygodniowo, uzupełniające cykl [PSP 3 × 10](./README.md).
 
 Ćwiczenia mają wspierać trening strzelecki, a nie zastępować nauki techniki. Stosuj obciążenie pozwalające zachować swobodny, kontrolowany ruch. Nie ćwicz do upadku mięśniowego i nie używaj broni jako obciążenia.
@@ -26,9 +27,9 @@ Po 3–5 minutach lekkiej rozgrzewki:
 
 ## Sesja B — wytrzymałość ręki i stabilizacja
 
-1. **Utrzymanie lekkiego przedmiotu na wyprostowanej ręce — 3 × 15–25 s na stronę.** Stań stabilnie i unieś rękę do wygodnej wysokości. Użyj bardzo lekkiej butelki lub innego przedmiotu; nie używaj broni. Opuść rękę, zanim pojawi się ból albo wyraźna utrata kontroli.
-2. **Prostowanie nadgarstka — 2 × 12–15 na stronę.** Oprzyj przedramię na udzie lub stole, pozostawiając dłoń poza krawędzią, grzbietem dłoni do góry. Unieś dłoń w nadgarstku, a następnie opuść ją powoli. Zacznij od bardzo lekkiego obciążenia.
-3. **Nawracanie i odwracanie przedramienia — 2 × 8–10 na stronę.** Oprzyj przedramię, łokieć trzymaj blisko tułowia. Trzymając lekki przedmiot, powoli obracaj dłoń raz wnętrzem w górę, raz w dół. Ruch wykonuj w wygodnym zakresie.
+1. **Utrzymanie lekkiego przedmiotu na wyprostowanej ręce — 3 × 15–25 s na stronę.** Stań stabilnie, równomiernie obciążając obie stopy, i unieś rękę do wygodnej wysokości w płaszczyźnie łopatki (ok. 30–45° skośnie w przód, jak w naturalnej postawie strzeleckiej), nie unosząc barku. Użyj butelki z wodą lub hantelki o masie **0,75–1,0 kg** na start, przechodząc do **1,1–1,2 kg** (masa Benelli MP 95E), a docelowo maksymalnie **1,25–1,4 kg**; nie używaj broni. Opuść rękę, zanim pojawi się ból albo wyraźna utrata kontroli.
+2. **Prostowanie nadgarstka — 2 × 12–15 na stronę.** Oprzyj przedramię na udzie lub stole, pozostawiając dłoń poza krawędzią, grzbietem dłoni do góry. Unieś dłoń w nadgarstku, a następnie opuść ją powoli. Zacznij od obciążenia **0,75–1,0 kg** (docelowo **1,25–1,5 kg**). Ze względu na wyważenie Benelli MP 95E na lufę uzupełniająco wykonaj 1–2 serie w ustawieniu dłoni kciukiem do góry (odwodzenie promieniowe: hantel **0,75–1,2 kg** lub butelka **0,5 l / ok. 0,5 kg** trzymana poziomo za szyjkę).
+3. **Nawracanie i odwracanie przedramienia — 2 × 8–10 na stronę.** Oprzyj przedramię, łokieć trzymaj blisko tułowia. Chwyć przedmiot o masie **0,4–0,6 kg** z przesuniętym środkiem ciężkości (np. pełną butelkę 0,5 l za szyjkę lub młotek 400–500 g w 2/3 długości trzonka) i powoli obracaj dłoń raz wnętrzem w górę, raz w dół. Ruch wykonuj w wygodnym, kontrolowanym zakresie.
 4. **Deska boczna — 2 × 20–30 s na stronę.** Podeprzyj się na przedramieniu i unieś biodra, utrzymując tułów w jednej linii. Łatwiejsza wersja: oprzyj kolana o podłoże.
 
 ## Schematy ruchów
