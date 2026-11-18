@@ -1,0 +1,356 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1340" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">Ćwiczenia siłowo-wytrzymałościowe wspierające PSP — plansza treningowa</title>
+  <desc id="svg-desc">Plansza z ośmioma ćwiczeniami podzielonymi na Sesję A (plecy, barki, tułów: wiosłowanie gumą, pompki przy podparciu, rotacja zewnętrzna barku, dead bug) oraz Sesję B (wytrzymałość ręki i stabilizacja: utrzymanie lekkiego przedmiotu, prostowanie nadgarstka, nawracanie i odwracanie przedramienia, deska boczna).</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2f6"/>
+    </linearGradient>
+    <linearGradient id="headerA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#2b547e"/>
+    </linearGradient>
+    <linearGradient id="headerB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1b4d3e"/>
+      <stop offset="100%" stop-color="#2a6f5a"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-4%" y="-4%" width="108%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.07"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 1 L8 4.5 L0 8 Z" fill="#0284c7"/>
+    </marker>
+    <marker id="arrowBlueStart" markerWidth="9" markerHeight="9" refX="2" refY="4.5" orient="auto">
+      <path d="M8 1 L0 4.5 L8 8 Z" fill="#0284c7"/>
+    </marker>
+
+    <style>
+      .font-main { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .header-title { font-size: 24px; font-weight: 700; fill: #0f172a; }
+      .header-sub { font-size: 14px; font-weight: 500; fill: #475569; }
+      .section-banner { font-size: 16px; font-weight: 700; fill: #ffffff; letter-spacing: 0.3px; }
+      .section-meta { font-size: 13px; font-weight: 500; fill: #e2e8f0; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; filter: url(#cardShadow); }
+      .card-title { font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .badge-a { fill: #e0f2fe; stroke: #7dd3fc; stroke-width: 1; }
+      .badge-text-a { font-size: 12.5px; font-weight: 700; fill: #0369a1; }
+      .badge-b { fill: #d1fae5; stroke: #6ee7b7; stroke-width: 1; }
+      .badge-text-b { font-size: 12.5px; font-weight: 700; fill: #047857; }
+      .cue { font-size: 13.5px; font-weight: 500; fill: #334155; }
+      .cue-sub { font-size: 12.5px; fill: #64748b; }
+      .floor { stroke: #cbd5e1; stroke-width: 3; stroke-linecap: round; }
+      .fixture { stroke: #64748b; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .fixture-fill { fill: #e2e8f0; stroke: #64748b; stroke-width: 2.5; }
+      .torso { stroke: #1e3a5f; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .limb { stroke: #1e3a5f; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .limb-back { stroke: #64748b; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; fill: none; opacity: 0.55; }
+      .head { fill: #1e3a5f; }
+      .joint { fill: #ffffff; stroke: #1e3a5f; stroke-width: 2.5; }
+      .ghost { stroke: #94a3b8; stroke-width: 7; stroke-dasharray: 7 6; stroke-linecap: round; stroke-linejoin: round; fill: none; opacity: 0.7; }
+      .band { stroke: #ea580c; stroke-width: 4.5; stroke-linecap: round; fill: none; }
+      .weight { fill: #f97316; stroke: #c2410c; stroke-width: 2; }
+      .motion { stroke: #0284c7; stroke-width: 3.5; stroke-linecap: round; fill: none; marker-end: url(#arrowBlue); }
+      .motion-bi { stroke: #0284c7; stroke-width: 3.5; stroke-linecap: round; fill: none; marker-start: url(#arrowBlueStart); marker-end: url(#arrowBlue); }
+      .align-line { stroke: #10b981; stroke-width: 2; stroke-dasharray: 5 5; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Tło główne -->
+  <rect width="1080" height="1340" fill="url(#bgGrad)"/>
+
+  <!-- Nagłówek planszy -->
+  <g class="font-main" transform="translate(30, 28)">
+    <text class="header-title" x="0" y="22">Ćwiczenia siłowo-wytrzymałościowe wspierające PSP (3 × 10)</text>
+    <text class="header-sub" x="0" y="46">2 sesje w tygodniu (ok. 48 h odstępu) • Kontrolowane tempo, bez upadku mięśniowego • Nie używaj broni jako obciążenia</text>
+  </g>
+
+  <!-- ==================== SESJA A ==================== -->
+  <g class="font-main" transform="translate(30, 92)">
+    <rect width="1020" height="40" rx="8" fill="url(#headerA)"/>
+    <text class="section-banner" x="18" y="25">SESJA A — PLECY, BARKI I TUŁÓW</text>
+    <text class="section-meta" x="1002" y="25" text-anchor="end">Rozgrzewka 3–5 min • Przerwy między seriami: 45–90 s</text>
+  </g>
+
+  <!-- Karta 1: Wiosłowanie gumą -->
+  <g class="font-main" transform="translate(30, 146)">
+    <rect class="card" width="498" height="255" rx="12"/>
+    <text class="card-title" x="20" y="32">1. Wiosłowanie gumą</text>
+    <rect class="badge-a" x="358" y="14" width="120" height="26" rx="13"/>
+    <text class="badge-text-a" x="418" y="31" text-anchor="middle">2–3 × 10–15</text>
+
+    <!-- Podłoże i punkt zaczepienia -->
+    <line class="floor" x1="60" y1="196" x2="430" y2="196"/>
+    <line class="fixture" x1="385" y1="68" x2="385" y2="196"/>
+    <circle cx="385" cy="116" r="5" fill="#ea580c"/>
+
+    <!-- Pozycja początkowa (ghost) -->
+    <path class="ghost" d="M152 108 L215 114 L268 115"/>
+    <!-- Guma oporowa -->
+    <line class="band" x1="175" y1="128" x2="385" y2="116"/>
+
+    <!-- Sylwetka stojąca -->
+    <line class="limb-back" x1="148" y1="145" x2="132" y2="194"/>
+    <line class="limb" x1="148" y1="145" x2="162" y2="194"/>
+    <line class="torso" x1="148" y1="98" x2="148" y2="145"/>
+    <circle class="head" cx="148" cy="72" r="15"/>
+    <!-- Ręka przyciągnięta (łokieć w tył) -->
+    <path class="limb" d="M148 104 L122 128 L175 128"/>
+    <circle class="joint" cx="148" cy="104" r="4"/>
+    <circle class="joint" cx="122" cy="128" r="3.5"/>
+
+    <!-- Strzałka ruchu -->
+    <path class="motion" d="M295 96 L215 96"/>
+
+    <text class="cue" x="20" y="222">Przyciągaj dłonie do tułowia, prowadząc łokcie w tył.</text>
+    <text class="cue-sub" x="20" y="241">Nie unoś barków; utrzymuj stabilną, wyprostowaną postawę.</text>
+  </g>
+
+  <!-- Karta 2: Pompki przy ścianie lub na podwyższeniu -->
+  <g class="font-main" transform="translate(552, 146)">
+    <rect class="card" width="498" height="255" rx="12"/>
+    <text class="card-title" x="20" y="32">2. Pompki na podwyższeniu / przy ścianie</text>
+    <rect class="badge-a" x="358" y="14" width="120" height="26" rx="13"/>
+    <text class="badge-text-a" x="418" y="31" text-anchor="middle">2–3 × 8–12</text>
+
+    <!-- Podłoże i podwyższenie -->
+    <line class="floor" x1="60" y1="196" x2="440" y2="196"/>
+    <rect class="fixture-fill" x="330" y="128" width="76" height="68" rx="4"/>
+
+    <!-- Linia osi ciała -->
+    <line class="align-line" x1="108" y1="184" x2="298" y2="78"/>
+
+    <!-- Pozycja dolna (ghost) -->
+    <path class="ghost" d="M286 105 L292 134 L336 128"/>
+
+    <!-- Sylwetka w podporze -->
+    <line class="limb" x1="120" y1="193" x2="205" y2="144"/>
+    <line class="torso" x1="205" y1="144" x2="274" y2="103"/>
+    <circle class="head" cx="295" cy="90" r="14"/>
+    <path class="limb" d="M270 106 L305 120 L336 128"/>
+    <circle class="joint" cx="270" cy="106" r="4"/>
+    <circle class="joint" cx="205" cy="144" r="4"/>
+
+    <!-- Strzałka ruchu -->
+    <path class="motion-bi" d="M245 74 L268 112"/>
+
+    <text class="cue" x="20" y="222">Utrzymuj tułów i nogi w jednej linii, uginaj łokcie pod kontrolą.</text>
+    <text class="cue-sub" x="20" y="241">Im wyższe podparcie (np. ściana), tym łatwiejszy wariant.</text>
+  </g>
+
+  <!-- Karta 3: Rotacja zewnętrzna barku z lekką gumą -->
+  <g class="font-main" transform="translate(30, 417)">
+    <rect class="card" width="498" height="255" rx="12"/>
+    <text class="card-title" x="20" y="32">3. Rotacja zewnętrzna barku z gumą</text>
+    <rect class="badge-a" x="342" y="14" width="136" height="26" rx="13"/>
+    <text class="badge-text-a" x="410" y="31" text-anchor="middle">2 × 12–15 / str.</text>
+
+    <!-- Widok z przodu/półprofilu -->
+    <line class="floor" x1="60" y1="196" x2="430" y2="196"/>
+    <line class="fixture" x1="95" y1="75" x2="95" y2="196"/>
+    <circle cx="95" cy="136" r="5" fill="#ea580c"/>
+
+    <!-- Sylwetka (przodem) -->
+    <line class="limb" x1="235" y1="148" x2="222" y2="194"/>
+    <line class="limb" x1="255" y1="148" x2="268" y2="194"/>
+    <rect x="225" y="96" width="40" height="54" rx="10" fill="#1e3a5f"/>
+    <circle class="head" cx="245" cy="72" r="15"/>
+
+    <!-- Lewa ręka spoczynkowa -->
+    <path class="limb-back" d="M225 104 L212 136 L216 162"/>
+
+    <!-- Prawa ręka ćwicząca: łokieć przy boku (kąt 90°) -->
+    <!-- Pozycja startowa przedramienia (do brzucha - ghost) -->
+    <line class="ghost" x1="267" y1="136" x2="232" y2="138"/>
+    <!-- Ramię pionowo w dół przy boku + przedramię obrócone na zewnątrz -->
+    <path class="limb" d="M265 104 L267 136 L318 134"/>
+    <circle class="joint" cx="267" cy="136" r="4.5"/>
+
+    <!-- Guma od uchwytu do dłoni -->
+    <line class="band" x1="95" y1="136" x2="318" y2="134"/>
+
+    <!-- Łuk pokazujący obrót przedramienia -->
+    <path class="motion" d="M236 116 Q278 102 316 116"/>
+
+    <text class="cue" x="20" y="222">Trzymaj łokieć zgięty pod kątem ~90° stale przy boku tułowia.</text>
+    <text class="cue-sub" x="20" y="241">Obracaj wyłącznie przedramię na zewnątrz, bez skręcania tułowia.</text>
+  </g>
+
+  <!-- Karta 4: Dead bug -->
+  <g class="font-main" transform="translate(552, 417)">
+    <rect class="card" width="498" height="255" rx="12"/>
+    <text class="card-title" x="20" y="32">4. Dead bug</text>
+    <rect class="badge-a" x="358" y="14" width="120" height="26" rx="13"/>
+    <text class="badge-text-a" x="418" y="31" text-anchor="middle">2 × 8 / str.</text>
+
+    <!-- Mata / podłoże -->
+    <line class="floor" x1="55" y1="184" x2="445" y2="184"/>
+    <rect x="115" y="178" width="265" height="6" rx="3" fill="#94a3b8"/>
+
+    <!-- Pozycja wyprostowana kończyn (ghost - opuszczona ręka i przeciwna noga) -->
+    <line class="ghost" x1="188" y1="168" x2="118" y2="152"/>
+    <path class="ghost" d="M272 168 L345 156 L402 160"/>
+
+    <!-- Sylwetka leżąca na plecach -->
+    <circle class="head" cx="158" cy="166" r="13"/>
+    <line class="torso" x1="184" y1="170" x2="272" y2="170"/>
+
+    <!-- Ręka w górze + noga zgięta 90/90 -->
+    <line class="limb" x1="190" y1="168" x2="190" y2="112"/>
+    <path class="limb" d="M272 168 L272 120 L322 120"/>
+    <circle class="joint" cx="190" cy="168" r="4"/>
+    <circle class="joint" cx="272" cy="168" r="4"/>
+    <circle class="joint" cx="272" cy="120" r="3.5"/>
+
+    <!-- Strzałki opuszczania przeciwnej ręki i nogi -->
+    <path class="motion" d="M175 112 Q140 116 125 140"/>
+    <path class="motion" d="M336 122 Q375 126 392 148"/>
+
+    <text class="cue" x="20" y="222">Leżąc na plecach, powoli opuszczaj przeciwną rękę i nogę.</text>
+    <text class="cue-sub" x="20" y="241">Zakres ruchu dobierz tak, by odcinek lędźwiowy i tułów były stabilne.</text>
+  </g>
+
+  <!-- ==================== SESJA B ==================== -->
+  <g class="font-main" transform="translate(30, 694)">
+    <rect width="1020" height="40" rx="8" fill="url(#headerB)"/>
+    <text class="section-banner" x="18" y="25">SESJA B — WYTRZYMAŁOŚĆ RĘKI I STABILIZACJA</text>
+    <text class="section-meta" x="1002" y="25" text-anchor="end">Nie wykonuj bezpośrednio przed strzelnicą • Przerwy: 45–90 s</text>
+  </g>
+
+  <!-- Karta 5: Utrzymanie lekkiego przedmiotu na wyprostowanej ręce -->
+  <g class="font-main" transform="translate(30, 748)">
+    <rect class="card" width="498" height="255" rx="12"/>
+    <text class="card-title" x="20" y="32">5. Utrzymanie lekkiego przedmiotu</text>
+    <rect class="badge-b" x="330" y="14" width="148" height="26" rx="13"/>
+    <text class="badge-text-b" x="404" y="31" text-anchor="middle">3 × 15–25 s / str.</text>
+
+    <line class="floor" x1="60" y1="196" x2="430" y2="196"/>
+
+    <!-- Linia pozioma kontroli wysokości barku -->
+    <line class="align-line" x1="175" y1="104" x2="365" y2="104"/>
+
+    <!-- Sylwetka stojąca stabilnie -->
+    <line class="limb-back" x1="175" y1="145" x2="158" y2="194"/>
+    <line class="limb" x1="175" y1="145" x2="190" y2="194"/>
+    <line class="torso" x1="175" y1="98" x2="175" y2="145"/>
+    <circle class="head" cx="175" cy="72" r="15"/>
+    <!-- Wolna ręka opuszczona swobodnie -->
+    <line class="limb-back" x1="175" y1="104" x2="162" y2="148"/>
+    <!-- Ręka wyprostowana na wysokości barku -->
+    <line class="limb" x1="175" y1="104" x2="296" y2="104"/>
+    <circle class="joint" cx="175" cy="104" r="4"/>
+
+    <!-- Lekki przedmiot (butelka / mały ciężarek) -->
+    <rect class="weight" x="296" y="88" width="20" height="32" rx="5"/>
+    <rect x="301" y="82" width="10" height="6" rx="2" fill="#c2410c"/>
+
+    <!-- Strzałka wskazująca niski bark (brak unoszenia) -->
+    <path class="motion" d="M175 44 L175 53" opacity="0"/>
+    <text class="badge-text-b" x="334" y="108">Izometria (15–25 s)</text>
+
+    <text class="cue" x="20" y="222">Utrzymuj lekką butelkę/przedmiot na wyprostowanej ręce (bez broni).</text>
+    <text class="cue-sub" x="20" y="241">Nie unoś barku; zakończ próbę przed pojawieniem się bólu lub drżenia.</text>
+  </g>
+
+  <!-- Karta 6: Prostowanie nadgarstka -->
+  <g class="font-main" transform="translate(552, 748)">
+    <rect class="card" width="498" height="255" rx="12"/>
+    <text class="card-title" x="20" y="32">6. Prostowanie nadgarstka</text>
+    <rect class="badge-b" x="342" y="14" width="136" height="26" rx="13"/>
+    <text class="badge-text-b" x="410" y="31" text-anchor="middle">2 × 12–15 / str.</text>
+
+    <!-- Blat stołu / podparcie pod przedramię -->
+    <rect class="fixture-fill" x="95" y="142" width="185" height="16" rx="4"/>
+    <line class="fixture" x1="125" y1="158" x2="125" y2="196"/>
+    <line class="fixture" x1="250" y1="158" x2="250" y2="196"/>
+
+    <!-- Ramię i przedramię oparte na blacie -->
+    <path class="limb" d="M115 84 L135 134 L280 134"/>
+    <circle class="joint" cx="135" cy="134" r="4"/>
+    <!-- Staw nadgarstkowy na krawędzi -->
+    <circle class="joint" cx="280" cy="134" r="4.5"/>
+
+    <!-- Dłoń opuszczona w dół (ghost) -->
+    <line class="ghost" x1="280" y1="134" x2="322" y2="162"/>
+
+    <!-- Dłoń uniesiona w górę (prostowanie nadgarstka, grzbietem do góry) -->
+    <line class="limb" x1="280" y1="134" x2="325" y2="106"/>
+
+    <!-- Mały ciężarek w dłoni -->
+    <rect class="weight" x="318" y="92" width="22" height="26" rx="5" transform="rotate(-28 329 105)"/>
+
+    <!-- Strzałka ruchu nadgarstka -->
+    <path class="motion-bi" d="M348 162 Q368 132 348 98"/>
+
+    <text class="cue" x="20" y="222">Przedramię oparte stabilnie, dłoń poza krawędzią grzbietem w górę.</text>
+    <text class="cue-sub" x="20" y="241">Unoś dłoń w nadgarstku i opuszczaj powoli z bardzo lekkim ciężarem.</text>
+  </g>
+
+  <!-- Karta 7: Nawracanie i odwracanie przedramienia -->
+  <g class="font-main" transform="translate(30, 1019)">
+    <rect class="card" width="498" height="255" rx="12"/>
+    <text class="card-title" x="20" y="32">7. Nawracanie i odwracanie przedramienia</text>
+    <rect class="badge-b" x="342" y="14" width="136" height="26" rx="13"/>
+    <text class="badge-text-b" x="410" y="31" text-anchor="middle">2 × 8–10 / str.</text>
+
+    <!-- Podparcie pod przedramię -->
+    <rect class="fixture-fill" x="95" y="148" width="170" height="14" rx="4"/>
+
+    <!-- Ramię blisko tułowia i oparte przedramię -->
+    <path class="limb" d="M125 82 L135 140 L265 140"/>
+    <circle class="joint" cx="135" cy="140" r="4"/>
+    <circle class="joint" cx="265" cy="140" r="4.5"/>
+
+    <!-- Pozycja 1: przedmiot pochylony na jedną stronę (ghost) -->
+    <line class="ghost" x1="265" y1="140" x2="232" y2="92"/>
+    <!-- Pozycja 2: przedmiot obrócony na drugą stronę -->
+    <line class="band" x1="265" y1="152" x2="302" y2="88"/>
+    <rect class="weight" x="292" y="76" width="24" height="16" rx="4" transform="rotate(30 304 84)"/>
+
+    <!-- Łuk obrotu dłoni (pronacja / supinacja) -->
+    <path class="motion-bi" d="M218 102 Q265 56 318 102"/>
+    <text class="cue-sub" x="268" y="68" text-anchor="middle">obrót góra ↔ dół</text>
+
+    <text class="cue" x="20" y="222">Oprzyj przedramię z łokciem blisko tułowia; obracaj dłoń z lekkim przedmiotem.</text>
+    <text class="cue-sub" x="20" y="241">Prowadź ruch powoli raz wnętrzem dłoni w górę, raz w dół.</text>
+  </g>
+
+  <!-- Karta 8: Deska boczna -->
+  <g class="font-main" transform="translate(552, 1019)">
+    <rect class="card" width="498" height="255" rx="12"/>
+    <text class="card-title" x="20" y="32">8. Deska boczna (Side plank)</text>
+    <rect class="badge-b" x="330" y="14" width="148" height="26" rx="13"/>
+    <text class="badge-text-b" x="404" y="31" text-anchor="middle">2 × 20–30 s / str.</text>
+
+    <!-- Podłoże -->
+    <line class="floor" x1="55" y1="186" x2="445" y2="186"/>
+
+    <!-- Linia prostej osi ciała -->
+    <line class="align-line" x1="115" y1="180" x2="352" y2="102"/>
+
+    <!-- Wersja łatwiejsza — podparcie na kolanach (ghost) -->
+    <path class="ghost" d="M212 148 L205 182"/>
+
+    <!-- Sylwetka w desce bocznej -->
+    <!-- Nogi i tułów w jednej linii -->
+    <line class="limb" x1="125" y1="180" x2="228" y2="145"/>
+    <line class="torso" x1="228" y1="145" x2="316" y2="114"/>
+    <circle class="head" cx="340" cy="105" r="14"/>
+
+    <!-- Ramię podporowe (przedramię na podłożu, łokieć pod barkiem) -->
+    <path class="limb" d="M312 116 L312 182 L348 182"/>
+    <circle class="joint" cx="312" cy="116" r="4"/>
+    <circle class="joint" cx="228" cy="145" r="4"/>
+
+    <!-- Strzałka uniesienia biodra -->
+    <path class="motion" d="M228 178 L228 156"/>
+
+    <text class="cue" x="20" y="222">Podeprzyj się na przedramieniu i unieś biodra, trzymając ciało w linii.</text>
+    <text class="cue-sub" x="20" y="241">Łatwiejsza wersja: oprzyj ugięte kolana o podłoże.</text>
+  </g>
+
+  <!-- Stopka informacyjna -->
+  <g class="font-main" transform="translate(30, 1304)">
+    <text class="header-sub" x="0" y="14">Progresja: Tygodnie 1–2 po 2 serie i krótszy czas utrzymania • Od tygodnia 3 dodaj 3. serię tam, gdzie plan przewiduje 2–3 serie • Zostaw kilka powtórzeń w zapasie.</text>
+  </g>
+</svg>
